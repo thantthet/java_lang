@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "java_lang", targets: ["java_lang"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SwiftJava/java_swift.git", .branch("master")),
+        .package(url: "https://github.com/thantthet/java_swift.git", .branch("master")),
         ],
     targets: [
         .target(name: "java_lang", dependencies: ["java_swift"], path: "Sources/"),
